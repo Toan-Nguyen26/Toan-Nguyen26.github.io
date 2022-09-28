@@ -1,9 +1,9 @@
 ---
 title: "Card Games"
-excerpt: "An online card game where you can play either solitaire or war game with your friends
-<br/> <a href='https://github.com/CKirby21/card-game-multiplayer'> Link to our github </a>
-<br/><img src='/images/500x300.png'> 
-<br/> Technologies : Java, HTML ,CSS , PHP , Laravel , Elasticsearch , MySql "
+excerpt: "A card game where you can play either solitaire or war game with your friends locally
+<br/> <a href='https://github.com/CKirby21/card-game-multiplayer'> Link to our github </a> | Lincoln , NE | November 2021 – December 2021
+<br/> <img src='/images/500x300.png'> 
+<br/> Technologies : Angular, C# , Typescript , HTML , CSS, Jira, Github "
 collection: portfolio
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: "Google Android App"
-excerpt: "An Android Google App where user can search for the results under 3 seconds from a database with over 10000 websites  
+title: "Google search App"
+excerpt: "A Google search app where user can search for the results under 3 seconds from a database with over 10000 websites  
+<br/> <a href='https://github.com/Toan-Nguyen26/GoogleWebsite'> Link to the repo </a> | Hanoi , Vietnam | May 2021 – July 2021
 <br/><img src='/images/500x300.png'> 
 <br/> Technologies : Java, HTML ,CSS , PHP , Laravel , Elasticsearch , MySql"
 collection: portfolio
