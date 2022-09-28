@@ -28,9 +28,9 @@
     <!-- a href="{{ base_path }}{{ post.url }}"  -->
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a>{{ title }}</a> <a rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <h3>{{ title }}</h3> <a rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a rel="permalink">{{ title }}</a>
+        <h3 rel="permalink">{{ title }}</h3>
       {% endif %}
     </h2>
     
