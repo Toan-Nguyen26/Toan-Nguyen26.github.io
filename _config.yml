@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Toan Hai Nguyen's Website"
 title_separator          : "-"
 name                     : &name "Toan Nguyen"
 description              : &description "personal description"
@@ -84,8 +84,8 @@ author:
   avatar           : "profile.png"
   bio              : "Senior Computer Science Major who's interested in developing and creating games"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : 
   email            :  "tnguyen141@huskers.unl.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,14 +95,14 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "https://github.com/Toan-Nguyen26"
+  github           : "Toan-Nguyen26"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/hai-toan-nguyen/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "hai-toan-nguyen"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
