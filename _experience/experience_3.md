@@ -3,7 +3,7 @@ title: "
 Part-time Web Developer at <b> <a href="https://dxg.unl.edu/">UNL Digital Experience Group</a> </b> 
 <br/>Lincoln , NE | November 2021 – May 2022"
 excerpt: "Unity Developer Intern
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/DXG.png'>"
 collection: experience
 ---
 

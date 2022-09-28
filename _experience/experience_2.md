@@ -3,7 +3,7 @@ title: "
 Associate Software Engineer (via UNL Design Studio)at <b> <a href="https://nelnetinc.com/nelnet-business-services/">Nelnet</a> </b> 
 <br/>Lincoln , NE | September 2022 – current"
 excerpt: "Unity Developer Intern
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/Nelnet.png'>"
 collection: experience
 ---
 

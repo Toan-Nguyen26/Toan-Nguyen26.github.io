@@ -4,7 +4,7 @@ Unity Developer Intern at <b> <a href="https://helistudio.vn/">Heli Studio</a> <
 <br/>Hanoi , Vietnam | June 2022 – August 2022
 <br/>Remote | August 2022 - current "
 excerpt: "Unity Developer Intern
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/Heli-Studio.png'>"
 collection: experience
 ---
 
