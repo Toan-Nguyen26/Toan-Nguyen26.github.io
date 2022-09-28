@@ -9,7 +9,7 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
   - title: "Experience"
-    url: /experience/
+    url: /teaching/
     
   - title: "Portfolio"
     url: /portfolio/
