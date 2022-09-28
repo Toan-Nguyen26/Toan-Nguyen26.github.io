@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Experience"
+permalink: /experience/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+{% for exp in site.experience %}
+  {% include archive-single.html %}
+{% endfor %}
