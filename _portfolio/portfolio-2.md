@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Google Android App"
+excerpt: "An Android Google App where user can search for the results under 3 seconds from a database with over 10000 websites  <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
