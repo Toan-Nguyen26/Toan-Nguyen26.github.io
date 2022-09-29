@@ -1,8 +1,8 @@
 ---
 title: "Sudoku"
-excerpt: "An Andriod Sudoku game , equip with basic funtionality, difficulty settings , hint tools for the player 
-
-<br/><img src='/images/sudoku.png'> | Hanoi , VN | June 2022 - August 2022
+excerpt: "An Andriod Sudoku game as part of a project by Heli Studio , equip with basic funtionality, difficulty settings , hint tools for the player 
+<br/>Hanoi , VN | June 2022 - August 2022
+<br/><img src='/images/sudoku.png'> 
 <br/> Technologies : Angular, C# , Typescript , HTML , CSS, Jira, Github "
 collection: portfolio
 ---
