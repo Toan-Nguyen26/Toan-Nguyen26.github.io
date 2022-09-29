@@ -3,11 +3,12 @@ title: "Part-time Web Developer"
 excerpt: "<b> <a href='https://dxg.unl.edu/'>UNL Digital Experience Group</a> </b>, Lincoln, NE 
 <br/> November 2021 – May 2022 
 <br/><img src='/images/DXG.png'>
-<br/> Aided senior developers in full-stack development for a chatting system for UNL in jQuery, PHP, and JavaScript 
-<br/> Implemented dark/light mode as well as CSS bootstrap for UNL’s websites to improve user interface and experience
-<br/> Updated and maintained more than a hundred website in HTML, CSS and PHP 
+<br/> <em> Aided senior developers in full-stack development for a chatting system for UNL in jQuery, PHP, and JavaScript </em>
+<br/> <em> Implemented dark/light mode as well as CSS bootstrap for UNL’s websites to improve user interface and experience </em>
+<br/> <em> Updated and maintained more than a hundred website in HTML, CSS and PHP </em> 
+<br/>
 <br/> Technologies : HTML, CSS, JavaScript, PHP, GitHub, Slack
-<hr> "
+"
 collection: experience
 ---
 
