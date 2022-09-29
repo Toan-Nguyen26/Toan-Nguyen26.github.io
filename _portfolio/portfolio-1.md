@@ -1,8 +1,8 @@
 ---
 title: "Sudoku"
-excerpt: "An Andriod Sudoku game , equip with basic funtionality for the player
+excerpt: "An Andriod Sudoku game , equip with basic funtionality, difficulty settings , hint tools for the player 
 
-<br/><img src='/images/500x300.png'> 
+<br/><img src='/images/sudoku.png'> | Hanoi , VN | June 2022 - August 2022
 <br/> Technologies : Angular, C# , Typescript , HTML , CSS, Jira, Github "
 collection: portfolio
 ---

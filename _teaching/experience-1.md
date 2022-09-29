@@ -3,7 +3,10 @@ title: "Unity Developer Intern"
 excerpt: "<b><a href='https://helistudio.vn/'>Heli Studio</a> </b> | Remote | June 2022 – current
 
 <br/><img src='/images/Heli-Studio.png'>
-
+<br/> <ul>
+    <li> Design the algorithm, levels, and UI system for our Android game - Word Burger using Unity, C#  </li>
+    <li> Participated in code evaluation and new features, such as speeding up our loading time between scenes.</li>
+    </ul>
 <br/> Technologies : Unity, C#, GitHub "
 collection: experience
 ---
