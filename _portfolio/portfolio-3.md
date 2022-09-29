@@ -4,7 +4,7 @@ excerpt: " A card game where you can play either solitaire or war game with your
 <br/><b><a href='https://github.com/CKirby21/card-game-multiplayer'> Link to our github </a></b>  
 <br/> <img src='/images/solitaire.PNG'>
 <br/> Technologies : Angular, C# , Typescript , HTML , CSS, Jira, Github 
-<hr> "
+"
 collection: portfolio
 ---
 
