@@ -1,7 +1,7 @@
 ---
 title: "Card Games"
-excerpt: "A card game where you can play either solitaire or war game with your friends locally
-<br/><b><a href='https://github.com/CKirby21/card-game-multiplayer'> Link to our github </a></b> | Lincoln , NE | November 2021 – December 2021
+excerpt: " <p> A card game where you can play either solitaire or war game with your friends locally </p> 
+<br/><p> <b><a href='https://github.com/CKirby21/card-game-multiplayer'> Link to our github </a></b> | Lincoln , NE | November 2021 – December 2021 </p>
 <br/> <img src='/images/solitaire.PNG'>
 <br/> Technologies : Angular, C# , Typescript , HTML , CSS, Jira, Github 
 <hr> "
