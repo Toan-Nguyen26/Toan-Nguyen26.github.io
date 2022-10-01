@@ -41,9 +41,10 @@
 @import "print";
 
 // My css from now on
-* {
+.body {
     font-family: Arial;
-    background-color: black;
+    background-color: #092229;
+    color: white;
 }
 
 .my__box{
