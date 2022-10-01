@@ -40,10 +40,15 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// My text box from now on
+// My css from now on
+* {
+    font-family: Arial;
+    background-color: black;
+}
+
 .my__box{
     background-color: lightgrey; 
-    width: 300px;
+    width: 600px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
@@ -51,4 +56,12 @@
 
 .the_title{
     font-weight: 600;
+}
+
+.img_cover{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 0px 0.5rem 0px 0px;
+
 }
