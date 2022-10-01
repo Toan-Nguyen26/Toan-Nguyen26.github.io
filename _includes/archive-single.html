@@ -12,6 +12,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-<!-- <div class="{{ include.type | default: "list" }}__item"> -->
-  <div class="my__box"> D</div>
-<!-- </div> -->
+<div class="{{ include.type | default: "list" }}__item">
+  <div class="my__box"> 
+    <div class="the_title"> page.title </div>
+    page.excerpt
+  </div>
+</div>
