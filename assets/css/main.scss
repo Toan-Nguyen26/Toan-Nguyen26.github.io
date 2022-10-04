@@ -66,3 +66,19 @@
     border-radius: 0px 0.5rem 0px 0px;
 
 }
+
+// This is for the languages in here
+.languages_box{
+    gap: 0.5rem;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.items_languages_box{
+    background-color: rgb(59, 103, 116);
+    margin: 0px;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: -104rem;
+}
