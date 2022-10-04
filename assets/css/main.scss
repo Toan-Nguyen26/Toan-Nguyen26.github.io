@@ -47,18 +47,30 @@
     color: white !important;
 }
 
-.webpage{
-    gap: 2.5em;
-    //grid-template-columns: 1fr 1fr;
-}
-
 .my__box{
     background-color: #1A414D; 
     width: 573px;
-    border: 15px solid #FFFFFF;
-    padding: 20px;
-
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
+    margin-bottom: 2rem;
 }
+
+//diffrent type of borders here
+.left_nelnet_border{
+    border-left: 0.5rem solid rgb(141, 195, 25);
+}
+
+.left_unl_border{
+    border-left: 0.5rem solid rgb(221, 26, 50);
+}
+
+.left_heli_border{
+    border-left: 0.5rem solid rgb(255, 171, 0);
+}
+
+.left_android_border{
+    border-left: 0.5rem solid rgb(246, 246, 6);
+}
+//------------------------------
 
 .the_title{
     font-weight: 600;
@@ -66,7 +78,7 @@
 
 .img_cover{
     height: 100%; 
-    width: 100%; 
+    width: 12.5rem; 
     object-fit: cover;
     border-radius: 0px 0.5rem 0px 0px;
 
