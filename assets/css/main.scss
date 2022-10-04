@@ -51,7 +51,7 @@
     background-color: #1A414D; 
     width: 573px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .inner_container{
@@ -60,21 +60,32 @@
 }
 
 //diffrent type of borders here
-.left_nelnet_border{
-    border-left: 0.5rem solid rgb(141, 195, 25);
+
+.nelnet_border{
+    border: 0.2rem solid rgb(141, 195, 25);
+    border-radius: 1.3rem;
 }
 
-.left_unl_border{
-    border-left: 0.5rem solid rgb(221, 26, 50);
+.unl_border{
+    border: 0.2rem solid rgb(221, 26, 50);
+    border-radius: 1.3rem;
 }
 
-.left_heli_border{
-    border-left: 0.5rem solid rgb(255, 171, 0);
+.heli_border{
+    border: 0.2rem solid rgb(255, 171, 0);
+    border-radius: 1.3rem;
 }
 
-.left_android_border{
-    border-left: 0.5rem solid rgb(246, 246, 6);
+.android_border{
+    border: 0.2rem solid rgb(218, 218, 2);
+    border-radius: 1.3rem;
 }
+
+.cards_border{
+    border: 0.2rem solid rgb(1, 118, 1);
+    border-radius: 1.3rem;
+}
+
 //------------------------------
 
 .the_title{
@@ -85,7 +96,7 @@
     width: 100%; 
     height: 12.5rem; 
     object-fit: cover;
-    border-radius: 0px 0.5rem 0px 0px;
+    border-radius: 1rem;
 
 }
 
