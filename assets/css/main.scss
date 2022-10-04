@@ -54,6 +54,11 @@
     margin-bottom: 2rem;
 }
 
+.inner_container{
+    width: 100%;
+    padding: 2rem;
+}
+
 //diffrent type of borders here
 .left_nelnet_border{
     border-left: 0.5rem solid rgb(141, 195, 25);
@@ -77,8 +82,8 @@
 }
 
 .img_cover{
-    height: 100%; 
-    width: 12.5rem; 
+    width: 100%; 
+    height: 12.5rem; 
     object-fit: cover;
     border-radius: 0px 0.5rem 0px 0px;
 
