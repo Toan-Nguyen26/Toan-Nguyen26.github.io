@@ -47,9 +47,14 @@
     color: white !important;
 }
 
+.webpage{
+    gap: 2.5em;
+    //grid-template-columns: 1fr 1fr;
+}
+
 .my__box{
     background-color: #1A414D; 
-    width: 600px;
+    width: 573px;
     border: 15px solid #FFFFFF;
     padding: 20px;
 
