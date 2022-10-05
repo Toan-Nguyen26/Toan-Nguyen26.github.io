@@ -12,5 +12,5 @@ Hi, I’m Toan . I was born on July 26th, 2000. Currently, I’m a Senior Underg
 
 I started game development 4 months ago as I was working in a game company. After that, I soon found a passion for developing and creating games for people to enjoy. Currently, I’m developing 2 games, a dungeon crawler that plans to release this December and a visual novel in March next year. They will be available on itch.io for free as well as on my portfolio once finished.
 
-I’m currently available for a full-time position May next year after graduation. So feel free to get in touch with me through my email tnguyen141@huskers.unl.edu or my number 531-218-6076.
+I’m currently available for a full-time position May next year after graduation. So feel free to get in touch with me through my email tnguyen141@huskers.unl.edu or my number 531-218-6076. You can also find more contacts on the sidebar.
 

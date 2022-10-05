@@ -118,7 +118,8 @@ author:
   weibo            :
   xing             :
   youtube          :
-  wikipedia        :
+  # This is a resume NOW
+  wikipedia        : "/_pages/Hai-Toan-Nguyen-Resume.docx"
 
 
 # Reading Files
