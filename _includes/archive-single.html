@@ -11,6 +11,16 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+<style>
+  
+  @media only screen and (max-device-width: 600px) {
+    .my__box{
+        background-color: #1A414D; 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
+        margin-bottom: 1rem;
+    }
+  }
+</style>
 
 <div class="{{ include.type | default: "list" }}__item">
   <div class="my__box heli_border"> 
