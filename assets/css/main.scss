@@ -48,16 +48,10 @@
 
 }
 
-@media only screen and (max-device-width: 600px) {
-    .my__box{
-        background-color: #1A414D; 
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
-        margin-bottom: 1rem;
-    }
-  }
 
 .my__box{
-    background-color: #1A414D; 
+    background-color: #1A414D;
+    min-width: 250px;
     max-width: 600px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
     margin-bottom: 1rem;
@@ -123,12 +117,4 @@
     display: inline-block;
     padding: 0.25rem 0.5rem;
     border-radius: 1rem;
-}
-
-@media only screen and (max-device-width: 480px) {
-    .my__box{
-        background-color: #1A414D; 
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
-        margin-bottom: 1rem;
-    }
 }
