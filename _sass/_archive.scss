@@ -106,8 +106,11 @@
     margin: 0 0 4px;
   }
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  @media screen and (min-width:1281px){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
   gap: 2.25rem;
 }
 
