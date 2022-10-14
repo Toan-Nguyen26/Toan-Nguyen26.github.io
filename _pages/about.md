@@ -10,6 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-{% include main_page.html %}
+{% include archive-single-talk.html %}
 
 
