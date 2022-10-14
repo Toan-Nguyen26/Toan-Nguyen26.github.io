@@ -1,0 +1,193 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+<style>
+  
+  @media only screen and (max-device-width: 600px) {
+    .my__box{
+        background-color: #1A414D; 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 0.1em 0.7em 0px;
+        margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 57.8125em){
+    .page{
+      width: 83.0508474576%;
+      float: right;
+      margin-right: 0;
+      padding-left: 4.2372881356%;
+      padding-right: 4.2372881356%;
+    }
+  }
+</style>
+
+<div id="Experience" class="{{ include.type | default: "list" }}__item">
+  <h1 class="page__title" itemprop="headline">Experience</h1>
+    <div class="my__box heli_border"> 
+      <img class="img_cover" src='/images/Heli-Studio.png' alt="Heli-Studio">
+      <div class="inner_container">
+        <h2 class="the_title"> Unity Developer Intern </h2>      
+        <h3> <a href='https://helistudio.vn/'>Heli Studio</a> | Remote | June 2022 – current </h3>
+        <ul>
+          <li> Design the algorithm, levels, and UI system for our Android game - Word Burger using Unity, C#  </li>
+          <li> Participated in code evaluation and new features, such as speeding up our loading time between scenes </li>
+        </ul>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">Unity</li>
+          <li class="items_languages_box">C#</li>
+          <li class="items_languages_box">Github</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="my__box nelnet_border"> 
+      <img class="img_cover" src='/images/Nelnet.png' alt="Nelnet">
+      <div class="inner_container">
+        <h2 class="the_title"> Associate Software Engineer (via UNL Design Studio)</h2>      
+        <h3> <a href='https://nelnetinc.com/nelnet-business-services/'>Nelnet</a> | Lincoln, NE | September 2022 – current</h3>
+        <ul>
+          <li> Jeffery S. Raikes School honors capstone program: Clarity - Centralize Lender Program  </li>
+          <li> Improved UI/UX design of Clarity webpages to make the site look more appealing and easier to look up information</li>
+          <li> Practice Agile Software Development cycle, bi-weekly sprint and monthly releases</li>
+        </ul>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">Typescript</li>
+          <li class="items_languages_box">CSS</li>
+          <li class="items_languages_box">GitHub</li>
+          <li class="items_languages_box">Slack</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="my__box unl_border" > 
+      <img class="img_cover" src='/images/DXG.png' alt="DXG">
+      <div class="inner_container">
+        <h2 class="the_title"> Part-time Web Developer </h2>
+        <h3> <a href='https://dxg.unl.edu/'>UNL Digital Experience Group</a> | Lincoln, NE | November 2021 – May 2022 </h3>
+        <ul>
+          <li> Aided senior developers in full-stack development for a chatting system for UNL in jQuery, PHP, and JavaScript  </li>
+          <li> Implemented dark/light mode as well as CSS bootstrap for UNL’s websites to improve user interface and experience</li>
+          <li> Updated and maintained more than a hundred website in HTML, CSS and PHP</li>
+        </ul>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">HTML</li>
+          <li class="items_languages_box">CSS</li>
+          <li class="items_languages_box">JavaScript</li>
+          <li class="items_languages_box">PHP</li>
+          <li class="items_languages_box">jQuery</li>
+          <li class="items_languages_box">GitHub</li>
+          <li class="items_languages_box">Slack</li>
+        </ul>
+      </div>
+    </div>
+  
+</div>
+
+<div id="Portfolio" class="{{ include.type | default: "list" }}__item">
+  <h1 class="page__title" itemprop="headline">Portfolio</h1>
+  <div class="my__box heli_border"> 
+    <img class="img_cover" src='/images/sudoku/new_sudoku.png' alt="Sudoku">
+    <!-- <a href="/images/sudoku/sudoku.png" style="font-size: 12px;"> Click for full image</a> -->
+    <div class="inner_container">
+      <h2 class="the_title"> Sudoku </h2>
+      <p> An Andriod Sudoku game as part of a project by Heli Studio, equipped with basic functionalities. Collaborated with another artist in the team, I created a system to populate different sudoku, difficulty settings, helper methods for a player if they're stuck,  and the frontend of the app to fit different screen sizes.</p>
+      <h3>Technologies:</h3> 
+      <ul class="languages_box">
+        <li class="items_languages_box">Unity</li>
+        <li class="items_languages_box">C#</li>
+        <li class="items_languages_box">Github</li>
+      </ul>
+      <h3>External Link:</h3> 
+      <a class="btn" href='/images/sudoku/sudoku.apk'> Andriod apk </a>
+    </div>
+  </div>
+
+  <div class="my__box cards_border"> 
+    <img class="img_cover" src='/images/cards/solitaire.PNG' alt="CardGames">
+    <!-- <p><a href="/images/cards" style="font-size: 12px;"> Click for full image</a></p> -->
+    <div class="inner_container">
+      <h2 class="the_title"> Card Games </h2>
+      <p> A card game where you can play either solitaire or war game with your friends locally. Working within a team of five computer science students, my responsibility is to developed the front-end of the main menu page, 
+        and the controller for the card shuffling, stacking, and displaying in the solitaire section.</p>
+      <h3>Technologies:</h3> 
+      <ul class="languages_box">
+        <li class="items_languages_box">Angular</li>
+        <li class="items_languages_box">C#</li>
+        <li class="items_languages_box">Typescript</li>
+        <li class="items_languages_box">HTML</li>
+        <li class="items_languages_box">CSS</li>
+        <li class="items_languages_box">Jira</li>
+        <li class="items_languages_box">Github</li>
+      </ul>
+      <h3>External Link:</h3> 
+      <a class="btn" href='https://github.com/CKirby21/card-game-multiplayer'> GitHub repo</a> 
+    </div>
+  </div>
+
+  <div class="my__box android_border"> 
+    <img class="img_cover" src='/images/google_app/new_android.png' alt="GSA">
+    <!-- <p><a href="/images/goole_app/android.png" style="font-size: 12px;"> Click for full image</a></p> -->
+    <div class="inner_container">
+      <h2 class="the_title"> Google search App </h2>
+      <p> A Google search app that I created for a professor in Vietnam to look up news/research related to his university. I designed a web crawler to populate the site's database,  
+        applied Elasticsearch to shorten search time, and created the front-end to fits different devices. </p>
+      <h3>Technologies:</h3> 
+      <ul class="languages_box">
+        <li class="items_languages_box">Java</li>
+        <li class="items_languages_box">HTML</li>
+        <li class="items_languages_box">CSS</li>
+        <li class="items_languages_box">PHP</li>
+        <li class="items_languages_box">Laravel</li>
+        <li class="items_languages_box">Elasticsearch</li>
+        <li class="items_languages_box">MySql</li>
+      </ul>
+      <h3>External Link:</h3> 
+      <a class="btn" href='https://github.com/Toan-Nguyen26/GoogleWebsite'> GitHub repo</a> | 
+      <a class="btn" href="/images/google_app/app_video.mp4"> Demonstration video</a>
+      </div>
+    
+  </div>
+
+
+</div>
+
+<div id="Education" class="{{ include.type | default: "list" }}__item">
+  <h1 class="page__title" itemprop="headline">Education</h1>
+  <div class="my__box unl_border"> 
+    <img class="img_cover" src='/images/avery.jpg' alt="UNL">
+    <div class="inner_container">
+      <h2 class="the_title"> B.S, Computer Science </h2>      
+      <h3> University of Nebraska - Lincoln | May 2023 </h3>
+      <h3> Major: Computer Science |Minors: Mathematics </h3>
+      <h3>What I learned:</h3> 
+      <p> Software Engineering , Operating Kernal Systems (C) . Programming Language Concept , Object Oriented Programming (Java)
+        .Data Structures and Algorithms (C#) , Unix Programming. </p>
+      <h3> Awards: </h3>
+      <ul>
+        <li>UNL Global Laureate Scholarship (2019 - 2023): $15,000/year</li>
+        <li>UNL Dean List: Fall 2019, Spring 2020, Spring 2022 </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="my__box parkway_border" > 
+    <img class="img_cover" src='/images/parkway.jpg' alt="Parkway">
+    <div class="inner_container">
+      <h2 class="the_title"> High School Diploma </h2>
+      <h3> Parkway Christian School | May 2019 </h3>
+      <h3>What I learned:</h3>
+      <p> Introduction to Web Design (HTML , CSS) . Beginning Programming (Scratch) </p>
+    </div>
+  </div>
+
+</div>
+
