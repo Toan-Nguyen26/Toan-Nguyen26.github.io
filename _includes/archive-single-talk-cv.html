@@ -9,10 +9,20 @@
         margin-bottom: 1rem;
     }
   }
+
+  @media (min-width: 57.8125em){
+    .page{
+      width: 83.0508474576%;
+      float: right;
+      margin-right: 0;
+      padding-left: 4.2372881356%;
+      padding-right: 4.2372881356%;
+    }
+  }
 </style>
 
-<div class="{{ include.type | default: "list" }}__item">
-
+<div id="Education" class="{{ include.type | default: "list" }}__item">
+    <h1 class="page__title" itemprop="headline">Education</h1>
     <div class="my__box unl_border"> 
       <img class="img_cover" src='/images/avery.jpg' alt="UNL">
       <div class="inner_container">
