@@ -21,16 +21,18 @@
   }
 </style>
 
-<h1 class="page__title" itemprop="headline">About Me</h1>
 <div id = "Introduction">
-  Hi, I’m Toan . I was born on July 26th, 2000. Currently, I’m a Senior Undergraduate Computer Science student at the University of Nebraska - Lincoln . I’m interested in solving problems and bring happiness to people. In my free time , I enjoy working out , listening to music and playing games . My favorite video games are Team Fortress 2 , Stardew Valley and Faster than Light.
+<h1 class="page__title" itemprop="headline">About Me</h1>
+  Hi, I’m Toan . I was born on July 26th, 2000. Currently, I’m a Senior Undergraduate Computer Science student at the University of Nebraska - Lincoln . I’m interested in solving problems and bring happiness to people. In my free time , I enjoy working out , listening to music and playing games . My favorite video games are Team Fortress 2 , Stardew Valley and Faster than Light.<br>
 
-  I started game development 4 months ago as I was working in a game company. After that, I soon found a passion for developing and creating games for people to enjoy. Currently, I’m developing 2 games, a dungeon crawler that plans to release this December and a 2d top down in March next year. They will be available on itch.io for free as well as on my portfolio once finished.
+  I started game development 4 months ago as I was working in a game company. After that, I soon found a passion for developing and creating games for people to enjoy. Currently, I’m developing 2 games, a dungeon crawler that plans to release this December and a 2d top down in March next year. They will be available on itch.io for free as well as on my portfolio once finished.<br>
   
   I’m currently available for a full-time position May next year after graduation. So feel free to get in touch with me through my email tnguyen141@huskers.unl.edu or my number 531-218-6076. You can also find more contacts on the sidebar.</div>
 
-<h1 class="page__title" itemprop="headline">Experience</h1>
-<div id="Experience" class="{{ include.type | default: "list" }}__item">
+
+<div id="Experience"> 
+  <h1 class="page__title" itemprop="headline">Experience</h1>
+  <div class="{{ include.type | default: "list" }}__item"> 
     <div class="my__box heli_border"> 
       <img class="img_cover" src='/images/Heli-Studio.png' alt="Heli-Studio">
       <div class="inner_container">
@@ -48,7 +50,7 @@
         </ul>
       </div>
     </div>
-  
+
     <div class="my__box nelnet_border"> 
       <img class="img_cover" src='/images/Nelnet.png' alt="Nelnet">
       <div class="inner_container">
@@ -91,79 +93,82 @@
         </ul>
       </div>
     </div>
-  
-</div>
-
-<h1 class="page__title" itemprop="headline">Portfolio</h1>
-<div id="Portfolio" class="{{ include.type | default: "list" }}__item">
-  <div class="my__box heli_border"> 
-    <img class="img_cover" src='/images/sudoku/new_sudoku.png' alt="Sudoku">
-    <!-- <a href="/images/sudoku/sudoku.png" style="font-size: 12px;"> Click for full image</a> -->
-    <div class="inner_container">
-      <h2 class="the_title"> Sudoku </h2>
-      <p> An Andriod Sudoku game as part of a project by Heli Studio, equipped with basic functionalities. Collaborated with another artist in the team, I created a system to populate different sudoku, difficulty settings, helper methods for a player if they're stuck,  and the frontend of the app to fit different screen sizes.</p>
-      <h3>Technologies:</h3> 
-      <ul class="languages_box">
-        <li class="items_languages_box">Unity</li>
-        <li class="items_languages_box">C#</li>
-        <li class="items_languages_box">Github</li>
-      </ul>
-      <h3>External Link:</h3> 
-      <a class="btn" href='/images/sudoku/sudoku.apk'> Andriod apk </a>
-    </div>
   </div>
+</div> 
 
-  <div class="my__box cards_border"> 
-    <img class="img_cover" src='/images/cards/solitaire.PNG' alt="CardGames">
-    <!-- <p><a href="/images/cards" style="font-size: 12px;"> Click for full image</a></p> -->
-    <div class="inner_container">
-      <h2 class="the_title"> Card Games </h2>
-      <p> A card game where you can play either solitaire or war game with your friends locally. Working within a team of five computer science students, my responsibility is to developed the front-end of the main menu page, 
-        and the controller for the card shuffling, stacking, and displaying in the solitaire section.</p>
-      <h3>Technologies:</h3> 
-      <ul class="languages_box">
-        <li class="items_languages_box">Angular</li>
-        <li class="items_languages_box">C#</li>
-        <li class="items_languages_box">Typescript</li>
-        <li class="items_languages_box">HTML</li>
-        <li class="items_languages_box">CSS</li>
-        <li class="items_languages_box">Jira</li>
-        <li class="items_languages_box">Github</li>
-      </ul>
-      <h3>External Link:</h3> 
-      <a class="btn" href='https://github.com/CKirby21/card-game-multiplayer'> GitHub repo</a> 
-    </div>
-  </div>
-
-  <div class="my__box android_border"> 
-    <img class="img_cover" src='/images/google_app/new_android.png' alt="GSA">
-    <!-- <p><a href="/images/goole_app/android.png" style="font-size: 12px;"> Click for full image</a></p> -->
-    <div class="inner_container">
-      <h2 class="the_title"> Google search App </h2>
-      <p> A Google search app that I created for a professor in Vietnam to look up news/research related to his university. I designed a web crawler to populate the site's database,  
-        applied Elasticsearch to shorten search time, and created the front-end to fits different devices. </p>
-      <h3>Technologies:</h3> 
-      <ul class="languages_box">
-        <li class="items_languages_box">Java</li>
-        <li class="items_languages_box">HTML</li>
-        <li class="items_languages_box">CSS</li>
-        <li class="items_languages_box">PHP</li>
-        <li class="items_languages_box">Laravel</li>
-        <li class="items_languages_box">Elasticsearch</li>
-        <li class="items_languages_box">MySql</li>
-      </ul>
-      <h3>External Link:</h3> 
-      <a class="btn" href='https://github.com/Toan-Nguyen26/GoogleWebsite'> GitHub repo</a> | 
-      <a class="btn" href="/images/google_app/app_video.mp4"> Demonstration video</a>
+<div id="Portfolio">
+  <h1 class="page__title" itemprop="headline">Portfolio</h1>
+  <div class="{{ include.type | default: "list" }}__item">
+    <div class="my__box heli_border"> 
+      <img class="img_cover" src='/images/sudoku/new_sudoku.png' alt="Sudoku">
+      <!-- <a href="/images/sudoku/sudoku.png" style="font-size: 12px;"> Click for full image</a> -->
+      <div class="inner_container">
+        <h2 class="the_title"> Sudoku </h2>
+        <p> An Andriod Sudoku game as part of a project by Heli Studio, equipped with basic functionalities. Collaborated with another artist in the team, I created a system to populate different sudoku, difficulty settings, helper methods for a player if they're stuck,  and the frontend of the app to fit different screen sizes.</p>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">Unity</li>
+          <li class="items_languages_box">C#</li>
+          <li class="items_languages_box">Github</li>
+        </ul>
+        <h3>External Link:</h3> 
+        <a class="btn" href='/images/sudoku/sudoku.apk'> Andriod apk </a>
       </div>
-    
+    </div>
+  
+    <div class="my__box cards_border"> 
+      <img class="img_cover" src='/images/cards/solitaire.PNG' alt="CardGames">
+      <!-- <p><a href="/images/cards" style="font-size: 12px;"> Click for full image</a></p> -->
+      <div class="inner_container">
+        <h2 class="the_title"> Card Games </h2>
+        <p> A card game where you can play either solitaire or war game with your friends locally. Working within a team of five computer science students, my responsibility is to developed the front-end of the main menu page, 
+          and the controller for the card shuffling, stacking, and displaying in the solitaire section.</p>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">Angular</li>
+          <li class="items_languages_box">C#</li>
+          <li class="items_languages_box">Typescript</li>
+          <li class="items_languages_box">HTML</li>
+          <li class="items_languages_box">CSS</li>
+          <li class="items_languages_box">Jira</li>
+          <li class="items_languages_box">Github</li>
+        </ul>
+        <h3>External Link:</h3> 
+        <a class="btn" href='https://github.com/CKirby21/card-game-multiplayer'> GitHub repo</a> 
+      </div>
+    </div>
+  
+    <div class="my__box android_border"> 
+      <img class="img_cover" src='/images/google_app/new_android.png' alt="GSA">
+      <!-- <p><a href="/images/goole_app/android.png" style="font-size: 12px;"> Click for full image</a></p> -->
+      <div class="inner_container">
+        <h2 class="the_title"> Google search App </h2>
+        <p> A Google search app that I created for a professor in Vietnam to look up news/research related to his university. I designed a web crawler to populate the site's database,  
+          applied Elasticsearch to shorten search time, and created the front-end to fits different devices. </p>
+        <h3>Technologies:</h3> 
+        <ul class="languages_box">
+          <li class="items_languages_box">Java</li>
+          <li class="items_languages_box">HTML</li>
+          <li class="items_languages_box">CSS</li>
+          <li class="items_languages_box">PHP</li>
+          <li class="items_languages_box">Laravel</li>
+          <li class="items_languages_box">Elasticsearch</li>
+          <li class="items_languages_box">MySql</li>
+        </ul>
+        <h3>External Link:</h3> 
+        <a class="btn" href='https://github.com/Toan-Nguyen26/GoogleWebsite'> GitHub repo</a> | 
+        <a class="btn" href="/images/google_app/app_video.mp4"> Demonstration video</a>
+        </div>
+      
+    </div>
+  
+  
   </div>
-
-
 </div>
 
-<h1 class="page__title" itemprop="headline">Education</h1>
-<div id="Education" class="{{ include.type | default: "list" }}__item">
+<div id="Education">
+  <h1 class="page__title" itemprop="headline">Education</h1>
+ <div class="{{ include.type | default: "list" }}__item">
   <div class="my__box unl_border"> 
     <img class="img_cover" src='/images/avery.jpg' alt="UNL">
     <div class="inner_container">
@@ -192,4 +197,6 @@
   </div>
 
 </div>
+</div>
+
 
