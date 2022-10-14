@@ -12,7 +12,7 @@
             <li class="masthead__menu-item" href="#Portfolio">Portfolio</li>
             <li class="masthead__menu-item" href="#Education">Education</li> 
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          //{% endfor %}
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -25,4 +25,5 @@
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
-            {% endif %} -->
+            {% endif %} 
+            {% endfor %} -->
