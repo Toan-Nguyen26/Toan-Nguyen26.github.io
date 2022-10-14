@@ -8,10 +8,11 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           
-            <li class="masthead__menu-item" href="#Experience">Experience</li>
-            <li class="masthead__menu-item" href="#Portfolio">Portfolio</li>
-            <li class="masthead__menu-item" href="#Education">Education</li> 
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          
+          <input type="button" onClick="document.getElementById('middle').scrollIntoView();" value="Experience"/>
+          <input type="button" onClick="document.getElementById('middle').scrollIntoView();" value="Portfolio"/>
+          <input type="button" onClick="document.getElementById('middle').scrollIntoView();" value="Experience"/> 
+          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
