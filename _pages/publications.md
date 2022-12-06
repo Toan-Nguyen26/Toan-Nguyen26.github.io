@@ -5,7 +5,7 @@ excerpt: "About me in VN"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - /aboutMeVn.html
 ---
 
 
