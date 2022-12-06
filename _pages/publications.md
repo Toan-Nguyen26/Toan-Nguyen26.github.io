@@ -1,16 +1,12 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
+permalink: /
+title: "About me in VN"
+excerpt: "About me in VN"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include archive-single-talk.html %}

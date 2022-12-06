@@ -191,7 +191,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  education:
+  aboutMeVn:
     output: true
     permalink: /:collection/:path/
 
@@ -228,7 +228,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: aboutMeVn
     values:
       layout: single
       author_profile: true
