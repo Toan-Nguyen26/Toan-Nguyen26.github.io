@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /aboutMeVn/
 title: "About me in VN"
 excerpt: "About me in VN"
 author_profile: true
