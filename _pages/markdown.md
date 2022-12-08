@@ -1,10 +1,10 @@
 ---
-permalink: /markdown/
-title: "Markdown"
+permalink: /Vnversion/
+title: "Vnversion"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - /Vnversion.html
 ---
 
 {% include about-me-VN.html %}
