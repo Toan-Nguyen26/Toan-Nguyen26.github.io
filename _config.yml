@@ -88,8 +88,8 @@ author:
   name             : "Toan Hai Nguyen"
   avatar           : "profile.png"
   bio              : "Senior Undergraduate Computer Science Major at the University of Nebraska - Lincoln"
-  vietnamese       : "https://toan-nguyen26.github.io/markdown"
-  english          : "https://toan-nguyen26.github.io"
+  # vietnamese       : "https://toan-nguyen26.github.io/markdown"
+  # english          : "https://toan-nguyen26.github.io"
   employer         :
   pubmed           : 
   googlescholar    : 
