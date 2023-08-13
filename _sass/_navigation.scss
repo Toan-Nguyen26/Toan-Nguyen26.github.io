@@ -174,7 +174,6 @@
 
 .greedy-nav {
   position: relative;
-  background-color: #000;
   min-width: 250px;
   background-color: #092229;
   color: white;
@@ -204,8 +203,7 @@
   }
 
   .visible-links {
-    display: flex;
-    place-content: center space-between;
+    display: table;
 
     li {
       display: table-cell;
